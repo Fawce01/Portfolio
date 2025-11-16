@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Website Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container vh-100" id="mainContainer">
+        <div class="d-flex justify-content-center align-items-center h-100" id="welcomeContainer">
+            <div id="welcome" class="h-auto">
+                <h1>Welcome</h1>
+                <div id="desc">
+                    <p>My name is Ben Fawcett, and I am a software engineer based in Newcastle-Upon-Tyne, UK.</p>
+                    <p>I have 2 years of experience working on ERP systems, with a focus on 3rd-party and API integrations.</p>
+                    <p>I have a passion for developing efficient and elegant solutions, with a drive for easy maintainability and modernization.</p>
+                </div>
+                <ul>
+                    <li>
+                        <a href="mailto:benfawcett01@gmail.com">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+                            </svg>
+                        </a></li>
+                    <li>
+                        <a href="https://github.com/Fawce01" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="stack" class="ms-5">
+                <h2>Stack</h2>
+                <ul>
+                    <li>C#</li>
+                    <li>ASP.Net</li>
+                    <li>Razor</li>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5 justify-content-center align-items-center">
+        <div id="projectswelcome">
+            <h1>Projects</h1>
+        </div>
+        <div id="projects">
+            <h3 id="crudheader">CRUD Projects</h3>
+            <span id="crudprosspan">
+                <ul id="crudpros">
+                    <li class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Diary Entry App</h5>
+                            <p class="card-text">Application demonstrating CRUD functionality on an SQL database. Users can create, read, update, and delete diary entries.</p>
+                            <p class="card-text"><strong>Stack:</strong> ASP.NET, Blazor, SQL, HTML, CSS, JQuery</p>
+                            <p class="card-text"><strong>Repository:</strong> </p>
+                        </div>
+                    </li>
+                    <li class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Code Recruit</h5>
+                            <p class="card-text">Dummy recruitment site for developers. Simple authentication and authorization mechanism. Employers can submit, update, and delete job postings, whilst job seekers view posted vacancies. Admin role is also available as super user.</p>
+                            <p class="card-text"><strong>Stack:</strong> ASP.NET, Blazor, SQL, HTML, CSS, JavaScript, JQuery, Ajax</p>
+                            <p class="card-text"><strong>Repository:</strong> </p>
+                        </div>
+                    </li>
+                </ul>
+            </span>
+
+            <h3>JavaScript</h3>
+            <span id="jsspan">
+                <ul id="js">
+                    <li class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Rockbusters</h5>
+                            <p class="card-text">Based on the X.FM show with Ricky Gervais, Stephen Merchant, and Karl Pilkington — Rockbusters is a game where users guess the music artist based on a riddle only Karl Pilkington could come up with!</p>
+                            <p class="card-text"><strong>Stack:</strong> HTML, CSS, JavaScript, JSON</p>
+                            <p class="card-text"><strong>Repository:</strong> https://github.com/Fawce01/Rockbusters</p>
+                            <a class="card-text" href="https://fawce01.github.io/Rockbusters/" target="_blank">Link to project</a>
+                        </div>
+                    </li>
+                </ul>
+            </span>
+
+            <h3>Data Science</h3>
+            <span id="dspan">    
+                <ul id="ds">
+                    <li class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">General Election Prediction App</h5>
+                            <p class="card-text">Done as part of my dissertation project at University — I developed a web application which uses a neural network and regression to predict the 2024 General Election result. Used datasets holding opinion polls and historical election results.</p>
+                            <p class="card-text"><strong>Stack:</strong> Python, Flask, scikit-learn</p>
+                            <p class="card-text"><strong>Repository:</strong> </p>
+                        </div>
+                    </li>
+                </ul>
+            </span>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
