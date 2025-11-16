@@ -12178,13 +12178,10 @@ h1{
     margin-left:20px;
 }
 
-#stack h2{
-    margin-left:6px;
-}
-
 #stack ul{
     border-left:3px solid #E3BE05;
-    margin-left:10px;
+    list-style-type: none;
+    padding-left:10px;
 }
 
 #contacts li{
